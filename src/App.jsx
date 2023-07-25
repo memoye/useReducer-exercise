@@ -39,14 +39,14 @@ function App() {
           <div>
             <div>
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" defaultValue={ "" } onInput={ (e) =>
+              <input type="email" name="email" id="email" value={ state.email } onInput={ (e) =>
                 dispatch({ type: "SET_EMAIL", payload: { email: e.target.value } })
               } />
             </div>
 
             <div>
               <label htmlFor="password">Password</label>
-              <input type="password" name="password" id="password" defaultValue={ "" } onInput={ (e) =>
+              <input type="password" name="password" id="password" value={ state.password } onInput={ (e) =>
                 dispatch({ type: "SET_PASSWORD", payload: { passw: e.target.value } })
               } />
             </div>
