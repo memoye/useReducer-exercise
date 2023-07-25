@@ -1,3 +1,3 @@
 # useReducer Exercise
 
-A very basic multistep form to practice `react` **useReducer** hook.
+A very basic multistep form to practice **React** `useReducer` hook.
